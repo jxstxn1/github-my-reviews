@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "GitHub My Reviews",
+  "version": "1.0.0",
+  "description": "Highlights GitHub pull requests where your review is still required, regardless of other reviewers' approvals.",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*"],
+      "js": ["content.js"],
+      "css": ["github.css"],
+      "run_at": "document_idle"
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
