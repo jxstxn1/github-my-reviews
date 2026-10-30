@@ -1,0 +1,24 @@
+.ghmr-review-needed {
+  background-color: rgba(227, 160, 8, 0.12) !important;
+  border-left: 4px solid #e3a008 !important;
+}
+
+.ghmr-review-needed:hover {
+  background-color: rgba(227, 160, 8, 0.2) !important;
+}
+
+.ghmr-badge {
+  display: inline-flex;
+  align-items: center;
+  margin-left: 8px;
+  padding: 0 7px;
+  border: 1px solid var(--borderColor-attention-muted, rgba(187, 128, 9, 0.4));
+  border-radius: 2em;
+  background: var(--bgColor-attention-muted, rgba(187, 128, 9, 0.15));
+  color: var(--fgColor-attention, #d29922);
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+  white-space: nowrap;
+  vertical-align: middle;
+}
